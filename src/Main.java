@@ -591,8 +591,8 @@ class EmployeeTimesheetApp extends JFrame {
         public static void main(String[] args) {
         DatabaseManager dbManager = new DatabaseManager(
                 "jdbc:mysql://localhost:3306/timesheet_db",
-                "root",
-                "Akash@123");
+                "username",
+                "your_password");
 
         new EmployeeTimesheetApp(dbManager); // Pass DatabaseManager to the app
 }
